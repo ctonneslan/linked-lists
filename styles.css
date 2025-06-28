@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #f0f0f0;
+}
+.list-display {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+.node {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+.node span {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+form {
+    margin-top: 1rem;
+}
+form input, form button {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
